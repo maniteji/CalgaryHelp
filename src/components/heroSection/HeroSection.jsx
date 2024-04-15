@@ -23,22 +23,23 @@ function HeroSection() {
 
                                 <h2 className='text-xl font-normal mb-3'
                                     style={{ color: mode === 'dark' ? 'white' : '#30336b' }}>
-                                   Find your residence and your dream job.
+                                    Find your residence and your dream job.
                                 </h2>
 
                                 <Link to={'/allroom'}>
-                                <Button
-                                    size='small'
-                                    className=' bg-[#30336b]'>
-                                    Properties
-                                </Button>
+                                    <Button
+                                        size='small'
+                                        className=' bg-[#30336b] tracking-wider'>
+                                        Properties
+                                    </Button>
+                                    
                                 </Link>
                                 <Link to={'/jobs'}>
-                                <Button
-                                    size='small'
-                                    className=' bg-[#30336b] ml-2'>
-                                    Jobs
-                                </Button>
+                                    <Button
+                                        size='small'
+                                        className=' bg-[#30336b] ml-2 tracking-wider'>
+                                        Jobs
+                                    </Button>
                                 </Link>
 
 
