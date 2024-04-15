@@ -14,24 +14,30 @@ function HeroSection() {
                     <div className="text-center">
                         <h2 className="text-5xl tracking-tight leading-10 font-medium sm:text-5xl text-transparent  bg-clip-text bg-gradient-to-l from-red-400 to-lime-200 sm:leading-none md:text-6xl">
                             <div className="flex justify-center">
-                                <img className='w-36 h-36 mb-2' src="https://cdn-icons-png.flaticon.com/256/7399/7399140.png" alt="" /></div>
+                                <img className='w- h-36 mb-2' src="https://iconape.com/wp-content/png_logo_vector/city-of-calgary-logo.png" alt="" /></div>
                             <div className="text-center">
                                 <h2 className='text-5xl font-bold mb-3'
                                     style={{ color: mode === 'dark' ? 'white' : '#30336b' }}>
-                                    Discover Your,
-New Home
+                                    Welcome to the Stampede City
                                 </h2>
 
                                 <h2 className='text-xl font-normal mb-3'
                                     style={{ color: mode === 'dark' ? 'white' : '#30336b' }}>
-                                   Choose from over 1 million apartments, houses, condos, and townhomes for rent.
+                                   Find your residence and your dream job.
                                 </h2>
 
                                 <Link to={'/allroom'}>
                                 <Button
                                     size='small'
                                     className=' bg-[#30336b]'>
-                                    Explore Now
+                                    Properties
+                                </Button>
+                                </Link>
+                                <Link to={'/jobs'}>
+                                <Button
+                                    size='small'
+                                    className=' bg-[#30336b] ml-2'>
+                                    Jobs
                                 </Button>
                                 </Link>
 

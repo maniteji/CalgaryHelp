@@ -142,7 +142,7 @@ const RoomInfo = () => {
                                     </div>
                                 </td>
                                 <td className={`h-12 px-6 text-md transition duration-300 border-b border-l first:border-l-0 ${mode === 'dark' ? 'border-[#5f63b8]' : 'border-[#5f63b8]'} stroke-slate-500 text-slate-500 first-letter:uppercase`}>
-                                    ₹ {room?.price}/month
+                                    $ {room?.price}/month
                                 </td>
 
 

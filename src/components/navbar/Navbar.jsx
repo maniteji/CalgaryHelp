@@ -51,8 +51,8 @@ export default function Nav() {
                 className={`p-1 font-semibold ${mode === 'dark' ? 'text-white' : 'text-black'} fontPara`}
 
             >
-                <Link to={'/job'} className="flex items-center">
-                    Job
+                <Link to={'/jobs'} className="flex items-center">
+                    Jobs
                 </Link>
             </Typography>
 

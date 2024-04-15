@@ -73,7 +73,7 @@ const JobDetail = () => {
                                             </td>
 
                                             <td className="h-12 px-6 text-md transition duration-300 border-t border-l first:border-l-0 border-indigo-100 stroke-slate-500 text-slate-500 first-letter:uppercase ">
-                                                ₹{salary}
+                                                ${salary}
                                             </td>
 
                                             <td className="h-12 px-6 text-md transition duration-300 border-t border-l first:border-l-0 border-indigo-100 stroke-slate-500 text-slate-500  ">
