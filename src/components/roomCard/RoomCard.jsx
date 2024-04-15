@@ -56,7 +56,7 @@ const RoomCard = () => {
                                                             {name}
                                                         </h1>
                                                         <h1 className={`title-font text-lg font-medium fontPara mb-3 ${mode === 'dark' ? 'text-gray-200' : 'text-gray-900'}`}>
-                                                            ₹ {price} {type === 'rent' ? '/month' : ''}
+                                                            $ {price} {type === 'rent' ? '/month' : ''}
                                                         </h1>
 
                                                         <div className={`flex justify-between ${mode === 'dark' ? 'text-gray-200' : 'text-gray-900'}`}>
