@@ -6,13 +6,13 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAyjtCty-uC9DvsJEL-RudZJtCWhW85xUA",
-    authDomain: "calgaryhelp-a72a9.firebaseapp.com",
-    projectId: "calgaryhelp-a72a9",
-    storageBucket: "calgaryhelp-a72a9.appspot.com",
-    messagingSenderId: "511931284814",
-    appId: "1:511931284814:web:92929e008ead28106f721f"
-  };
+  apiKey: "AIzaSyAyjtCty-uC9DvsJEL-RudZJtCWhW85xUA",
+  authDomain: "calgaryhelp-a72a9.firebaseapp.com",
+  projectId: "calgaryhelp-a72a9",
+  storageBucket: "calgaryhelp-a72a9.appspot.com",
+  messagingSenderId: "511931284814",
+  appId: "1:511931284814:web:92929e008ead28106f721f"
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
