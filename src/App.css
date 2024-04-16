@@ -35,8 +35,14 @@
 
 .card {
   padding: 2em;
+  
 }
 
 .read-the-docs {
   color: #888;
+}
+
+
+.hover-light-mode:hover {
+  color: #646cffaa;
 }
