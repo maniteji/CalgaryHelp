@@ -49,11 +49,15 @@ const Footer = () => {
                             @Calgary Help
                         </Link>
                     </p>
-
+                   
                     {/* media icon  */}
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start" >
+                    <div className="flex flex-col grid-rows-3">
+                        <a href="/allRoom">Properties</a>
+                        <a href="/jobs">Jobs</a>
+                    </div>
                         {/* facebook  */}
-                        <a href="https://www.facebook.com/" className="cursor-pointer" target="_blank">
+                        <a href="https://www.facebook.com/" className="ml-5 cursor-pointer" target="_blank">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
