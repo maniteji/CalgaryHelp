@@ -41,7 +41,7 @@ const RoomCard = () => {
                                         console.log(item)
                                         return (
                                             <div key={index} className="p-4 w-full md:w-1/4">
-                                                <div className={`h-full shadow-md  hover:-translate-y-1 border ${mode === 'dark' ? 'border-gray-700' : 'border-gray-300'}  rounded-xl overflow-hidden shadow-md cursor-pointer`}>
+                                               <div className={`h-full shadow-md hover:shadow-2xl transition-shadow duration-300 hover:-translate-y-1 border ${mode === 'dark' ? 'border-gray-700' : 'border-gray-300'} rounded-xl overflow-hidden shadow-md cursor-pointer`}>
                                                     <img
                                                         onClick={() => navigate(`/roominfo/${id}/${userId}`)}
                                                         className="lg:h-60  h-96 w-full"

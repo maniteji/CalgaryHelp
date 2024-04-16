@@ -53,7 +53,7 @@ const Footer = () => {
                     {/* media icon  */}
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start" >
                         {/* facebook  */}
-                        <a className="cursor-pointer">
+                        <a href="https://www.facebook.com/" className="cursor-pointer" target="_blank">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
@@ -67,7 +67,7 @@ const Footer = () => {
                         </a>
 
                         {/* twitter  */}
-                        <a className="ml-3 cursor-pointer">
+                        <a href="https://www.twitter.com" className="ml-3 cursor-pointer" target="_blank">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
@@ -81,7 +81,7 @@ const Footer = () => {
                         </a>
 
                         {/* instagram  */}
-                        <a className="ml-3 cursor-pointer">
+                        <a href="http://instagram.com" className="ml-3 cursor-pointer" target="_blank">
                             <svg
                                 fill="none"
                                 stroke="currentColor"
@@ -97,7 +97,7 @@ const Footer = () => {
                         </a>
 
                         {/* linkedIn  */}
-                        <a className="ml-3 cursor-pointer">
+                        <a href="https:www.linkedin.com" className="ml-3 cursor-pointer" target="_blank">
                             <svg
                                 fill="currentColor"
                                 stroke="currentColor"
