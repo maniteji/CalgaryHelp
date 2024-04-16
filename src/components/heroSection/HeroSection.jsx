@@ -18,7 +18,7 @@ function HeroSection() {
                             <div className="text-center">
                                 <h2 className='text-5xl font-bold mb-3'
                                     style={{ color: mode === 'dark' ? 'white' : '#30336b' }}>
-                                    Welcome to the Stampede City
+                                    Welcome to #CalgaryHelp
                                 </h2>
 
                                 <h2 className='text-xl font-normal mb-3'
