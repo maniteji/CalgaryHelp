@@ -61,7 +61,7 @@ const RoomCard = () => {
 
                                                         <div className={`flex justify-between ${mode === 'dark' ? 'text-gray-200' : 'text-gray-900'}`}>
                                                             <div className="flex items-center space-x-2">
-                                                                <span>{bedrooms} beds</span>
+                                                                <span className="text-sm">{bedrooms} Beds</span>
                                                                 <svg
                                                                     xmlns="http://www.w3.org/2000/svg"
                                                                     width={24}
@@ -83,8 +83,8 @@ const RoomCard = () => {
 
                                                             </div>
 
-                                                            <div className="flex items-center space-x-2">
-                                                                <span>{bathrooms} baths</span>
+                                                            <div className="flex items-center space-x-1">
+                                                                <span className="text-sm">{bathrooms} Baths</span>
                                                                 <svg
                                                                     xmlns="http://www.w3.org/2000/svg"
                                                                     width={24}

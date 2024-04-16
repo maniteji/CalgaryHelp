@@ -15,6 +15,7 @@ import toast from 'react-hot-toast';
 import myContext from "../../context/myContext";
 import Loader from "../../components/loader/Loader";
 import { addDoc, collection, getDocs, query, where } from "firebase/firestore";
+import Layout from "../../components/layout/Layout";
 
 export default function Login() {
     const context = useContext(myContext);
@@ -91,6 +92,7 @@ export default function Login() {
     };
 
     return (
+        <Layout>
         <div className="flex justify-center items-center h-screen  ">
             {loading && <Loader />}
             {/* Card  */}
@@ -200,7 +202,7 @@ export default function Login() {
                 </CardBody>
             </Card>
         </div>
-
+        </Layout>
 
     );
 }

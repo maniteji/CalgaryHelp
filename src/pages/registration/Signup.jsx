@@ -15,6 +15,7 @@ import { auth, fireDB, storage } from "../../firebase/FirebaseConfig";
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import { addDoc, collection, getDocs, query, where } from "firebase/firestore";
 import Loader from "../../components/loader/Loader";
+import Layout from "../../components/layout/Layout";
 
 
 export default function Signup() {
@@ -166,6 +167,7 @@ export default function Signup() {
 
 
     return (
+        <Layout>
         <div className="flex justify-center items-center h-screen  ">
             {loading && <Loader />}
             {/* Card  */}
@@ -298,7 +300,7 @@ export default function Signup() {
                 </CardBody>
             </Card>
         </div>
-
+        </Layout>
 
     );
 }
