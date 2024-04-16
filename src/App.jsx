@@ -14,9 +14,9 @@ import CreateRoom from "./pages/user/CreateRoom";
 import RoomInfo from "./pages/roomInfo/RoomInfo";
 import { ProtectedRouteForUser } from "./portectedRoute/ProtectedRouteForUser";
 import ScrollTop from "./components/scrollTop/ScrollTop";
-import AllRoom from "./pages/allRoom/AllRoom";
-import Jobs from "./pages/jobs/Jobs";
+import Jobs from "./pages/jobs/Job";
 import CreateJob from "./pages/user/CreateJob";
+import Properties from "./pages/Properties/Properties";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/allroom" element={<AllRoom />} />
+          <Route path="/allroom" element={<Properties />} />
           <Route path="/jobs" element={<Jobs />} />
           <Route path="/dashboard" element={
             <ProtectedRouteForUser>

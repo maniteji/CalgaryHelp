@@ -17,20 +17,20 @@ const Footer = () => {
                         style={{
                             color: mode === 'dark' ? 'text-white' : 'text-black'
                         }}>
-                         <Link to={'/'}>
-                        <Typography
-                            as="a"
-                            className="mr-4 cursor-pointer py-1.5 text-xl font-bold flex gap-2 items-center"
+                        <Link to={'/'}>
+                            <Typography
+                                as="a"
+                                className="mr-4 cursor-pointer py-1.5 text-xl font-bold flex gap-2 items-center"
 
-                        >
+                            >
 
-                            {mode === 'light' ?
-                                <img className=' w-10 h-10 App-logo' src='../../img/Logo_Dark.png' />
-                                : <img className=' w-10 h-10 App-logo' src='../../img/Logo_White.png' />
-                            }
-                            <span className={`${mode === 'dark' ? 'text-white' : 'text-black'}`}>Calgary Help</span>
-                        </Typography>
-                    </Link>
+                                {mode === 'light' ?
+                                    <img className=' w-10 h-10 App-logo' src='../../img/Logo_Dark.png' />
+                                    : <img className=' w-10 h-10 App-logo' src='../../img/Logo_White.png' />
+                                }
+                                <span className={`${mode === 'dark' ? 'text-white' : 'text-black'}`}>Calgary Help</span>
+                            </Typography>
+                        </Link>
                     </a>
                     {/* para  */}
                     <p className="text-sm sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4" style={{
@@ -49,13 +49,9 @@ const Footer = () => {
                             @Calgary Help
                         </Link>
                     </p>
-                   
+
                     {/* media icon  */}
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start" >
-                    <div className="flex flex-col grid-rows-3">
-                        <a href="/allRoom">Properties</a>
-                        <a href="/jobs">Jobs</a>
-                    </div>
                         {/* facebook  */}
                         <a href="https://www.facebook.com/" className="ml-5 cursor-pointer" target="_blank">
                             <svg
