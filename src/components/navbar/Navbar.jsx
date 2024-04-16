@@ -40,7 +40,7 @@ export default function Nav() {
 
             >
                 <Link to={'/allroom'} className="flex items-center">
-                    All Room
+                    Properties
                 </Link>
             </Typography>
 
