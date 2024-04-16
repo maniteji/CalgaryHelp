@@ -18,6 +18,7 @@ import { auth, fireDB } from "../../firebase/FirebaseConfig";
 import { useNavigate } from "react-router";
 import { getDownloadURL, getStorage, ref, uploadBytesResumable } from "firebase/storage";
 import { v4 as uuidv4 } from "uuid";
+import Layout from "../../components/layout/Layout";
 
 
 const CreateRoom = () => {
@@ -136,6 +137,7 @@ const CreateRoom = () => {
 
 
     return (
+        <Layout>
         <div className="flex justify-center items-center lg:h-screen  ">
             {loading && <Loader />}
             {/* Card  */}
@@ -413,7 +415,7 @@ const CreateRoom = () => {
                 </CardBody>
             </Card>
         </div>
-
+        </Layout>
     );
 }
 

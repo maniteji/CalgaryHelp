@@ -13,6 +13,7 @@ import { Timestamp, addDoc, collection } from "firebase/firestore";
 import { fireDB } from "../../firebase/FirebaseConfig";
 import toast from "react-hot-toast";
 import Loader from "../../components/loader/Loader";
+import Layout from "../../components/layout/Layout";
 
 export default function CreateJob() {
     const context = useContext(myContext);
@@ -57,6 +58,7 @@ export default function CreateJob() {
     }
 
     return (
+        <Layout>
         <>
             <div className=" flex justify-center items-center h-screen">
                 {loading && <div>
@@ -117,5 +119,6 @@ export default function CreateJob() {
                 </Card>
             </div>
         </>
+        </Layout>
     );
 }
