@@ -16,7 +16,7 @@ const AllRoom = () => {
             <div className="mt-10">
                 {/* Heading  */}
                 <div className="">
-                    <h1 className={`text-center mb-5 text-2xl font-semibold ${mode === 'dark' ? 'text-gray-200' : 'text-gray-900'}`}>All Room</h1>
+                    <h1 className={`text-center mb-5 text-2xl font-semibold ${mode === 'dark' ? 'text-gray-200' : 'text-gray-900'}`}>Properties</h1>
                 </div>
 
                 {/* main 1 */}
